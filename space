@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+int TRIANGLE(int a,int b)
+{
+    int c;
+    c=(a*b)/2;
+    return c;
+}
+int QUADANGLE(int a,int b)
+{
+    int c;
+    c=a*b;
+    return c;
+}
+float CIRCLE(int a)
+{
+    float b;
+    b=a*a*3.14;//반환값이 float라서 함수를 float로 바꾸어야한다
+    return b;
+}
+int main()
+{
+    int a;
+    scanf("%d",&a);
+    int b;
+    scanf("%d",&b);
+    int c,d,e;
+    c=TRIANGLE(a,b);
+    d=QUADANGLE(a,b);
+    e=CIRCLE(a);
+    printf("%d %d %d",c,d,e);
+
+}
