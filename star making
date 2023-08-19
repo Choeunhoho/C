@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main()
+{
+    int i,o,p,k;
+    scanf("%d",&p);
+    for(i = 0;i<p;i++)
+    {
+        for(o = 0;o<p-i;o++)
+        {
+           printf(" ");
+        }
+        for(k = 0;k<2*i-1;k++)
+        {
+            printf("*");
+        }
+        printf("\n");
+    }
+}
