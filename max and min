@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main()
+{
+    int A[10]={36,43,10,87,47,560,100,99,76,33,};
+    int b=A[0];
+    int c=A[0];
+    for(int a = 1;a<10;a++)
+    {
+        if(A[a]>b)
+        {
+            b=A[a];
+        }
+        if(A[a]<c)
+        {
+            c=A[a];
+        }
+    }
+    printf("최댓값은 : %d, 최솟값은 :%d",b,c);
+    return 0;
+}
