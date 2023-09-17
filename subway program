@@ -1,0 +1,38 @@
+#include <stdio.h>
+
+
+
+typedef struct {
+    char food[20];
+}F;
+int main()
+{
+    F FOOD[5][7] = { {'spicybarbeque','barbeque','cheese','mayo','chipoli','374kcal'},
+                     {'spicyshrimp','shrimp','chees','firechicken','yang','245 kcal'},
+                     {'spicyitallia','peperoni','sallami','painapplpe','sweet onion','454 kcal'},
+                     {'stake&cheese','stake','chipoli','sauce','aspa','355 kcal'} };
+    int food;
+    char a;
+    if()
+    {
+        printf("스파이시 바베큐");
+        food=0;
+    }
+    else if()
+    {
+        printf("스파이시 쉬림프");
+        food=1;
+    }
+    else if()
+    {
+        printf("스파이시 이탈리아");
+        food=2;
+    }
+    else
+    {
+        printf("스테이크 & 치즈");
+        food=3;
+    }
+}
+//9/17
+//오늘은 서브웨이 프로그램을 만드려고 했지만 끝내 다 만들지 못했다.내가 만드려고 했더 프러그램은 음식이름을 대면 재료들과 칼로리 지수가 나오는 코드를 if문을 사용해서 만드려고 했다.
